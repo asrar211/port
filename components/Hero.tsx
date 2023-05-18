@@ -13,7 +13,7 @@ const Hero = () => {
         initial={{y:10, opacity: 0 }}
         animate={{y:0, opacity: 1}}
         transition={{duration: 0.5, delay: 0.7}}
-        className="text-4xl lgl:text-5xl font-titleFont font-semibold flex flex-col"
+        className="text-3xl lgl:text-5xl font-titleFont font-semibold flex flex-col"
         >Mohammad Asrar. <span className="text-textDark mt-2 lgl:mt-4">Web Developer and Designer</span>
         </motion.h1>
         <motion.p
