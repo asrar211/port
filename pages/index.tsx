@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import SideOne from '../components/SideOne';
 import SideTwo from '../components/SideTwo';
 import Hero from '../components/Hero';
+import About from '../components/About';
 import {motion} from "framer-motion";
 
 
@@ -27,7 +28,7 @@ export default function Home() {
         </motion.div>
         <div className="h-[88vh] w-fullscreen mx-auto p-4">
           < Hero />
-          {/* About */}
+          <About />
           {/* Projects */}
           {/* contact */}
           {/* footer */}
