@@ -4,13 +4,22 @@ import {TbBrandNextjs, } from 'react-icons/tb';
 import {SiJquery} from 'react-icons/si';
 import Image from 'next/image';
 import {Man} from '../public/assets/images/index'
+import {motion} from "framer-motion";
 
 const About = () => {
   return (
-    <div id="about" className="max-w-containerSmall dr py-10 lgl:py-32 flex flex-col gap-8">
-        <Title titlen="About" />
+    <motion.div
+    initial={{y:10, opacity: 0 }}
+        animate={{y:0, opacity: 1}}
+        transition={{duration: 0.5, delay: 1}}
+    id="about" className="max-w-containerSmall dr py-10 lgl:py-32 flex flex-col gap-8">
+        <Title titlen="About"/>
         <div className='flex flex-col lgl:flex-grow gap-16'>
-          <div className='w-full text-base text-textDark font-medium flex flex-col gap-4'>
+          <motion.div
+          initial={{y:10, opacity: 0 }}
+          animate={{y:0, opacity: 1}}
+          transition={{duration: 0.5, delay: 1.5}}
+          className='w-full text-base text-textDark font-medium flex flex-col gap-4'>
             <p>
               Hello! My name is Mohammad Asrar and I am Web Developer and Designer. I have experience in many latest technologies started back from HTML, CSS and JavaScript. I have done various projects which you can see below. Apart from web development, i am currently working on Artficial Intelligence, Machine Learning and Cybersecurity.
               </p>
@@ -29,9 +38,9 @@ const About = () => {
               <li className='flex items-center gap-2'><span className='text-textGreen'><DiMongodb /></span>MongoDB</li>
               <li className='flex items-center gap-2'><span className='text-textGreen'><SiJquery /></span>jQuery</li>
             </ul>
+            </motion.div>
           </div>
-        </div>
-        </div>
+        </motion.div>
   )
 }
 
