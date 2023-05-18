@@ -9,7 +9,7 @@ const SideTwo = () => {
         animate={{y:0, opacity: 1}}
         transition={{duration: 0.5, delay: 1.5}}
     className='flex items-center'>
-        <Image className='w-50  ' src={Photo}/>
+        <Image className='w-50  ' src={Photo} alt="photo" />
     </motion.div>
 
   )
