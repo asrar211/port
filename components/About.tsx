@@ -7,7 +7,7 @@ import {Man} from '../public/assets/images/index'
 
 const About = () => {
   return (
-    <div id="about" className="max-w-containerSmall  sml:mx-8 lgl:mx-auto py-10 lgl:py-32 flex flex-col gap-8">
+    <div id="about" className="max-w-containerSmall dr py-10 lgl:py-32 flex flex-col gap-8">
         <Title titlen="About" />
         <div className='flex flex-col lgl:flex-grow gap-16'>
           <div className='w-full text-base text-textDark font-medium flex flex-col gap-4'>
