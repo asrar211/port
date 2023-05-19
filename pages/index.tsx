@@ -4,6 +4,7 @@ import SideOne from '../components/SideOne';
 import SideTwo from '../components/SideTwo';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import Project from '../components/Project';
 import {motion} from "framer-motion";
 
 
@@ -26,14 +27,14 @@ export default function Home() {
         className="hidden xl:inline-flex w-32 ">
           < SideOne />
         </motion.div>
-        <div className="h-[88vh] w-fullscreen mx-auto p-4">
+        <div className="h-[88vh] w-[660px] mx-auto p-4">
           < Hero />
           <About />
-          {/* Projects */}
+          <Project />
           {/* contact */}
           {/* footer */}
         </div>
-        <div className="hidden xl:inline-flex w-full h-full top-0"> <SideTwo /> </div>
+        <div className="hidden lg:inline-flex w-full h-full top-0"> <SideTwo /> </div>
        </div>
     </main>
     </>

@@ -2,8 +2,6 @@ import Title from './Title'
 import {DiJavascript, DiReact, DiNodejsSmall, DiBootstrap,DiMongodb  } from 'react-icons/di';
 import {TbBrandNextjs, } from 'react-icons/tb';
 import {SiJquery} from 'react-icons/si';
-import Image from 'next/image';
-import {Man} from '../public/assets/images/index'
 import {motion} from "framer-motion";
 
 const About = () => {
@@ -12,7 +10,7 @@ const About = () => {
     initial={{y:10, opacity: 0 }}
         animate={{y:0, opacity: 1}}
         transition={{duration: 0.5, delay: 1}}
-    id="about" className="max-w-containerSmall dr py-10 lgl:py-32 flex flex-col gap-8">
+    id="about" className="w-full dr py-10 lgl:py-32 flex flex-col gap-8">
         <Title titlen="About"/>
         <div className='flex flex-col lgl:flex-grow gap-16'>
           <motion.div
