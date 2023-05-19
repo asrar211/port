@@ -17,3 +17,7 @@
 .maxx{
 width: 100%;
 }
+
+.active{
+    color: #64ffda;
+}
