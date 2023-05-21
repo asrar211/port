@@ -26,7 +26,7 @@ const Project = () => {
                 <p className='font-fontTitle text-textGreen text-sm tracking-wide'>Featured Project</p>
                 <h3 className='text-2xl font-bold'>Cod'Error Website</h3>
                 <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                    This website is made out of scratch from ReactJs and Bootstrap namely Cod'Error.
+                    This Website is made out of scratch from ReactJs and Bootstrap namely Cod'Error.
                 </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                 <li>ReactJs</li>
