@@ -19,7 +19,7 @@ const Project = () => {
           <div className='flex flex-col xl:flex-row-reverse gap-6'>
               <a className='w-full xl:w-1/2 h-auto relative group' href="https://code-dusky.vercel.app/">
                 <div>
-                  <Image className='w-full h-full object-contain' src={One} alt='image'/>
+                  <Image className='w-full h-full object-contain' src={One} alt='One'/>
                 </div>
               </a>
               <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10 '>
