@@ -51,21 +51,22 @@ const Project = () => {
           <div className='w-full flex flex-col items-center justify-center gap-28 pt-10'>
           <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
           <div className='flex flex-col xl:flex-row gap-6 justify-between'>
-              <a className='w-full xl:w-1/2 h-auto relative group' href="">
+              <a className='w-full xl:w-1/2 h-auto relative group' href="https://amafhh-estore.vercel.app/">
                 <div>
                   <Image className='w-full h-full object-contain' src={Travel} alt='travel planner Website'/>
                 </div>
               </a>
               <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10 '>
                 <p className='font-fontTitle text-textGreen text-sm tracking-wide'>Featured Project</p>
-                <h3 className='text-2xl font-bold'>Travel Planner</h3>
+                <h3 className='text-2xl font-bold'>Ecommerce Website</h3>
                 <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, modi dicta voluptatibus odit dolores officia!
+                    This Website is an Ecommerce Store made out of scratch from MERN Stack namely AMAFHH eStore.
                 </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
-                <li>NextJs</li>
-                <li>Typescript</li>
-                <li>Github Deploy</li>
+                <li>ReactJs</li>
+                <li>NodeJs</li>
+                <li>Express</li>
+                <li>MongoDb</li>
               </ul>
               <div className='text-2xl flex gap-4'>
                 <a className='hover:text-textGreen duration:300'  href="https://www.github.com/asrar211">
