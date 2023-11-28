@@ -72,7 +72,7 @@ const Project = () => {
                 <a className='hover:text-textGreen duration:300'  href="https://www.github.com/asrar211">
                   <TbBrandGithub />
                 </a>
-                <a href="" className="hover:text-textGreen duration:300" >
+                <a href="https://amafhh-estore.vercel.app/" className="hover:text-textGreen duration:300" >
                   <RxOpenInNewWindow />
                 </a>
               </div>
